@@ -1,0 +1,338 @@
+.divPaymentBusket {
+    padding-top: 0;
+    margin-top: 0;
+    position: relative;
+    top: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+}
+
+.divTips {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#pTips {
+    color: white;
+    font-size: 0.9rem;
+    position: relative;
+    text-align: left;
+    left: 10vw;
+    top: -18%;
+}
+
+.divBtnTips {
+    display: flex;
+    position: relative;
+    top: -30%;
+    left: 10%;
+    width: 80%;
+    gap: 1px;
+    height: 100%;
+}
+
+#btnZero, #btnRound, #btnPercent, #btnCustom {
+    background-color: orange;
+    padding: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    height: 3.5vh;
+}
+
+#btnZero {
+    border-radius: 8px 0 0 8px;
+    width: 20%;
+}
+
+#btnRound {
+    width: 40%;
+}
+
+#btnPercent {
+    width: 15%;
+}
+
+#btnCustom {
+    border-radius: 0 8px 8px 0;
+    width: 25%;
+}
+
+.divSubtotal {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: -12%;
+}
+
+#pSubtotal, #pTipsPP {
+    position: relative;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+#pPriceSub {
+    position: relative;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    right: -56vw;
+}
+
+.divTipsPP {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+    top: -7vh;
+    width: 80%;
+    left: 10%;
+}
+
+#pTipsPPP {
+    position: relative;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    left: 63vw;
+}
+
+.divTotal {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 80%;
+    position: relative;
+    top: -9vh;
+    left: 10%;
+}
+
+#pTotal {
+    font-size: 1.2rem;
+}
+
+#pTotalPrice {
+    position: relative;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    left: 74%;
+}
+
+.divBtnConfirm {
+    width: 80%;
+    left: 10%;
+    position: relative;
+    top: -8vh;
+}
+
+#btnConfirm {
+    width: 100%;
+    background-color: orange;
+    border-radius: 13px;
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 3.5vh;
+}
+
+@media screen and (max-width: 480px) {
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 766px) {
+    #pTips {
+        left: 11vw;
+
+    }
+
+    #pPriceSub {
+        left: 78%;
+    }
+
+    #pTipsPPP {
+        left: 84.5%;
+    }
+    #pTotalPrice {
+        left: 82%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    #pTips {
+        font-size: 1rem;
+        left: 10vw;
+    }
+    .divBtnTips {
+        top: -28%;
+    }
+    #pPriceSub {
+        left: 83.5%;
+        font-size: 1rem;
+    }
+
+    .divSubtotal {
+        top: -8%;
+    }
+
+    .divTipsPP {
+        top: -5vh;
+    }
+
+    #pTipsPPP {
+        left: 88%;
+        font-size: 1rem;
+    }
+
+    .divTotal {
+        top: -5vh;
+    }
+
+    #pTotal {
+        font-size: 1.3rem;
+    }
+
+    #pTotalPrice {
+        left: 85%;
+        font-size: 1.2rem;
+    }
+    .divBtnConfirm {
+        top: -5vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1359px) {
+    #pTips {
+        font-size: 1.1rem;
+        top: -10vh;
+    }
+    .divBtnTips {
+        top: -11vh;
+    }
+    .divSubtotal {
+        top: -12vh;
+    }
+    #pPriceSub {
+        left: 91%;
+        font-size: 1.1rem;
+    }
+    #btnZero, #btnRound, #btnPercent, #btnCustom {
+        font-size: 0.8rem;
+        height: 3.9vh;
+    }
+    .divTipsPP {
+        top: -18vh;
+    }
+
+    #pTipsPPP {
+        left: 93.6%;
+        font-size: 1.1rem;
+    }
+
+    .divTotal {
+        top: -21vh;
+    }
+
+    #pTotal {
+        font-size: 1.3rem;
+    }
+
+    #pTotalPrice {
+        left: 92%;
+        font-size: 1.2rem;
+    }
+    .divBtnConfirm {
+        top: -23vh;
+    }
+    #btnConfirm {
+        height: 5vh;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1559px) {
+    #pTips {
+        font-size: 1.1rem;
+    }
+    .divSubtotal {
+        top: -8%;
+    }
+    #pPriceSub {
+        left: 91%;
+        font-size: 1.1rem;
+    }
+
+    .divTipsPP {
+        top: -5vh;
+    }
+
+    #pTipsPPP {
+        left: 93.4%;
+        font-size: 1.1rem;
+    }
+
+    .divTotal {
+        top: -5vh;
+    }
+
+    #pTotal {
+        font-size: 1.3rem;
+    }
+
+    #pTotalPrice {
+        left: 92%;
+        font-size: 1.2rem;
+    }
+    .divBtnConfirm {
+        top: -5vh;
+    }
+
+}
+
+@media only screen and (min-width: 1560px) {
+    #pTips {
+        font-size: 1.1rem;
+    }
+    .divSubtotal {
+        top: -10%;
+    }
+    #pPriceSub {
+        left: 91%;
+        font-size: 1.1rem;
+    }
+    #btnZero, #btnRound, #btnPercent, #btnCustom {
+        font-size: 0.8rem;
+        height: 3.9vh;
+    }
+    .divTipsPP {
+        top: -8vh;
+    }
+
+    #pTipsPPP {
+        left: 93.2%;
+        font-size: 1.1rem;
+    }
+
+    .divTotal {
+        top: -12vh;
+    }
+
+    #pTotal {
+        font-size: 1.3rem;
+    }
+
+    #pTotalPrice {
+        left: 92%;
+        font-size: 1.2rem;
+    }
+    .divBtnConfirm {
+        top: -14vh;
+    }
+    #btnConfirm {
+        height: 5vh;
+    }
+}

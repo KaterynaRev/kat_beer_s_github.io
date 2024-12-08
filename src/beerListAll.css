@@ -1,0 +1,287 @@
+.beerAll {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 99vw;
+    height: 69vh;
+    overflow-x: hidden;
+    top: 12px;
+}
+
+.beerAll.blurred {
+    filter: blur(10px);
+    pointer-events: none;
+    transition: filter 0.3s ease-in-out;
+}
+
+.beerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease-in-out;
+    height: 69vh;
+    width: 100vw;
+    max-width: 100vw;
+    align-items: flex-start;
+}
+
+.beerList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    row-gap: 25px;
+    column-gap: 24px;
+    background-color: white;
+    position: relative;
+    width: 90%;
+    left: 6%;
+    top: 3%;
+    transition: opacity 0.3s ease-in-out;
+    align-items: center;
+}
+
+.beerItem {
+    width: calc(33.33% - 20px);
+    height: 11vh;
+    box-sizing: border-box;
+    margin: 2px 2px 5px 2px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgBeerAll {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 63%;
+    height: 10vh;
+    display: flex;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    position: relative;
+    left: 16px;
+    align-items: center;
+    justify-items: center;
+}
+
+.imgBeerAll img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.altText {
+    font-size: 0.5rem;
+    color: #555;
+    width: 80%;
+    position: relative;
+    left: 4px;
+}
+
+/*.beerList::after {*/
+/*    content: '';*/
+/*    flex: auto;*/
+/*}*/
+
+.nameBeerh3 {
+    font-size: 0.56rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1px;
+    position: relative;
+    left: -1%;
+}
+
+.priceBeerP {
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: -10px;
+    position: relative;
+    left: auto;
+}
+
+#pLoading {
+    position: relative;
+    left: 42%;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .beerAll {
+        top: 0.8rem;
+    }
+
+    .nameBeerh3 {
+        left: clamp(-3%, -4vw, -5%)
+    }
+
+    .priceBeerP {
+        left: -4%;
+    }
+    .beerItem {
+        height: 12vh;
+    }
+
+    .imgBeerAll {
+        width: 63%;
+        height: 11vh;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 766px) {
+    .imgBeerAll {
+        width: 45%;
+        height: 80px;
+        left: 28%;
+    }
+    .beerAll {
+        top: 12px;
+    }
+    .beerList {
+        justify-content: flex-start;
+        width: 90%;
+        left: 6%;
+        column-gap: 23px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .beerList {
+        top: 6%;
+        left: 11%;
+    }
+    .nameBeerh3 {
+        left: -10%;
+        font-size: 0.7rem;
+    }
+
+    .priceBeerP {
+        left: -10%;
+        font-size: 0.7rem;
+    }
+    .beerItem {
+        height: 12vh;
+        width: calc(33.33% - 40px);
+    }
+
+    .imgBeerAll {
+        width: 63%;
+        height: 11vh;
+    }
+    .imgBeerAll img {
+        width: 90%;
+        height: 95%;
+        position: relative;
+        left: 6px;
+    }
+    .altText {
+        font-size: 0.8rem;
+        left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1359px) {
+    .beerList {
+        top: 6%;
+        left: 20%;
+    }
+    .nameBeerh3 {
+        left: -28%;
+        font-size: 0.7rem;
+    }
+
+    .priceBeerP {
+        left: -28%;
+        font-size: 0.7rem;
+    }
+    .beerItem {
+        height: 16vh;
+        width: calc(33.33% - 8vw);
+    }
+
+    .imgBeerAll {
+        width: 33%;
+        height: 15vh;
+    }
+    .imgBeerAll img {
+        width: 90%;
+        height: 95%;
+        position: relative;
+        left: 6px;
+    }
+    .altText {
+        font-size: 0.8rem;
+        left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1559px) {
+    .beerList {
+        top: 6%;
+        left: 19%;
+    }
+    .nameBeerh3 {
+        left: -30%;
+        font-size: 0.7rem;
+    }
+
+    .priceBeerP {
+        left: -30%;
+        font-size: 0.7rem;
+    }
+    .beerItem {
+        height: 16vh;
+        width: calc(33.33% - 80px);
+    }
+
+    .imgBeerAll {
+        width: 30%;
+        height: 15vh;
+    }
+    .imgBeerAll img {
+        width: 90%;
+        height: 95%;
+        position: relative;
+        left: 6px;
+    }
+    .altText {
+        font-size: 0.8rem;
+        left: 10px;
+    }
+}
+@media only screen and (min-width: 1560px) {
+    .beerList {
+        top: 6%;
+        left: 19%;
+    }
+    .nameBeerh3 {
+        left: -31%;
+        font-size: 0.7rem;
+    }
+
+    .priceBeerP {
+        left: -31%;
+        font-size: 0.7rem;
+    }
+    .beerItem {
+        height: 16vh;
+        width: calc(33.33% - 80px);
+    }
+
+    .imgBeerAll {
+        width: 30%;
+        height: 15vh;
+    }
+    .imgBeerAll img {
+        width: 90%;
+        height: 95%;
+        position: relative;
+        left: 6px;
+    }
+    .altText {
+        font-size: 0.8rem;
+        left: 9px;
+    }
+}

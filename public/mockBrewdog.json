@@ -1,0 +1,126 @@
+[
+    {
+        "id": 1,
+        "abv":"4.00%",
+        "beer_type": "",
+        "category":"Beer",
+        "food_pairing": "Spicy chicken wings, BBQ ribs, Grilled steak",
+        "ibu":"45",
+        "name":"Brewdog USA LightspeedSteak",
+        "sku": "100414",
+        "tagline": "Post Modern Classic. Full of Hops and Attitude.",
+        "description": "A modern classic IPA with a blend of tropical fruits and citrus flavors. Packed with hops and a full-bodied finish.",
+        "price": "2"
+    },
+    {
+        "id": 2,
+        "name": "Hazy JaneStea",
+        "tagline": "Juicy & Hazy IPA",
+        "description": "A juicy, hazy IPA with tropical fruit notes. The perfect beer for those who like their IPAs to be full of flavor.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 5.0,
+        "ibu": 40,
+        "price": "3",
+        "food_pairing": "Spicy chicken wings, Grilled steak, grilled shrimp"
+    },
+    {
+        "id": 3,
+        "name": "Elvis JuicePiz",
+        "tagline": "American IPA with a Twist",
+        "description": "An American IPA bursting with grapefruit flavor, balanced with a perfect malt base and a juicy twist.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 6.5,
+        "ibu": 40,
+        "price": "5",
+        "food_pairing": "desserts, Margherita pizza, all"
+    },
+    {
+        "id": 4,
+        "name": "Dead Pony ClubPizz",
+        "tagline": "Light & Hoppy Session IPA",
+        "description": "A light but full-flavored session IPA, perfect for a long session with fresh hops and citrus zing.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 3.8,
+        "ibu": 35,
+        "price": "ABV",
+        "food_pairing": "Margherita pizza, fish, salad, all"
+    },
+    {
+        "id": 5,
+        "name": "Riptide",
+        "tagline": "Imperial Stout",
+        "description": "A big, bold Imperial Stout with rich chocolate and coffee notes. A perfect beer for dark beer lovers.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 8.0,
+        "ibu": 45,
+        "price": "ABV",
+        "food_pairing": "fish, salad, Margherita pizza"
+    },
+    {
+        "id": 6,
+        "name": "RiptidePizza",
+        "tagline": "Imperial Stout",
+        "description": "A big, bold Imperial Stout with rich chocolate and coffee notes. A perfect beer for dark beer lovers.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 8.0,
+        "ibu": 45,
+        "price": "ABV",
+        "food_pairing": "fish, Margherita pizza, all"
+    },
+    {
+        "id": 7,
+        "name": "RiptideMargar",
+        "tagline": "Imperial Stout",
+        "description": "A big, bold Imperial Stout with rich chocolate and coffee notes. A perfect beer for dark beer lovers.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 8.0,
+        "ibu": 45,
+        "price": "ABV",
+        "food_pairing": "Margherita pizza, desserts, chocolate, all"
+    },
+    {
+        "id": 8,
+        "name": "RiptideSr2",
+        "tagline": "Imperial Stout",
+        "description": "A big, bold Imperial Stout with rich chocolate and coffee notes. A perfect beer for dark beer lovers.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 8.0,
+        "ibu": 45,
+        "price": "ABV",
+        "food_pairing": "Grilled steak, desserts, chocolate, all"
+    },
+    {
+        "id": 9,
+        "name": "RiptideSt3",
+        "tagline": "Imperial Stout",
+        "description": "A big, bold Imperial Stout with rich chocolate and coffee notes. A perfect beer for dark beer lovers.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 8.0,
+        "ibu": 45,
+        "price": "ABV",
+        "food_pairing": "desserts, Grilled steak, all"
+    },
+    {
+        "id": 10,
+        "name": "RiptideStek1",
+        "tagline": "Imperial Stout",
+        "description": "A big, bold Imperial Stout with rich chocolate and coffee notes. A perfect beer for dark beer lovers.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 8.0,
+        "ibu": 45,
+        "price": "ABV",
+        "food_pairing": "Grilled steak, desserts, chocolate, all"
+    },
+    {
+        "id": 11,
+        "name": "RiptideSteak",
+        "tagline": "Imperial Stout",
+        "description": "A big, bold Imperial Stout with rich chocolate and coffee notes. A perfect beer for dark beer lovers.",
+        "image_url": "https://brewdog.com/cdn/shop/files/pdp-punk-ipa-beer-330ml-can-brewdog.jpg?v=1723584032&width=493",
+        "abv": 8.0,
+        "ibu": 45,
+        "price": "ABV",
+        "food_pairing": "desserts, Grilled steak, all"
+    }
+
+]

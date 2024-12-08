@@ -1,0 +1,752 @@
+.busketContainer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-width: 100vw;
+    max-width: 100%;
+    min-height: 10%;
+    height: auto;
+    border-radius: 40px 40px 0 0;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#lineDiv {
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    width: 20px;
+    height: 4px;
+    left: calc(100vw / 2 - 10px);
+    top: 10px;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+.divImgBusket {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    z-index: 10;
+    gap: 6px;
+    left: 35vw;
+    letter-spacing: 2px;
+    top: 0.5vh;
+}
+
+#imgBusket {
+    width: 1.1rem;
+    height: 1.1rem;
+    position: relative;
+    top: 11px;
+}
+
+.divImgBusket p {
+    font-size: 0.8rem;
+}
+
+.cartInfoInBusket {
+    background-color: #282c34;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0.6vh;
+    min-height: 10vh;
+    max-height: 37vh;
+    gap: 13px;
+    width: 100vw;
+}
+
+.divInfoC {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 3%;
+    width: 98%;
+    height: 9vh;
+    left: 3vw;
+}
+
+.imgBeerCart {
+    width: 13vw;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    left: 4%;
+    background-color: #f0f0f0;
+    top: -2px;
+}
+
+.imgBeerCart img {
+    object-position: center;
+    object-fit: cover;
+    position: relative;
+    width: 95%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.altTextB {
+    font-size: 0.3rem;
+    color: #555;
+    text-align: center;
+    max-width: 15px;
+    height: 30px;
+    line-height: 10px;
+}
+
+.nameBeerh3Cart {
+    padding: 3px;
+    width: 40%;
+    position: relative;
+    top: 2px;
+    left: 4%;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+}
+
+.priceBeerDivCart {
+    width: 5.5%;
+    height: 13px;
+    color: black;
+    background-color: orange;
+    border-radius: 5px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: -40%;
+    top: -2px;
+    padding-top: 2px;
+}
+
+.priceBeerPCart {
+    position: relative;
+    top: -9px;
+    font-size: 0.5rem;
+}
+
+.containerBtnAddSub {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: relative;
+    left: 8px;
+    top: 16px;
+}
+
+.btnImgSubCount {
+    width: 25px;
+    height: 15px;
+    background-color: #282c34;
+    border-radius: 6px 0 0 6px;
+}
+
+#imgSubBeer {
+    width: 10px;
+    height: 8px;
+    position: relative;
+    left: 0;
+    top: -3.5px;
+}
+
+#pCountBeer {
+    color: white;
+    width: 19px;
+    position: relative;
+    top: -21px;
+}
+
+.btnImgAddCount {
+    width: 25px;
+    height: 15px;
+    background-color: orange;
+    border-radius: 0 6px 6px 0;
+}
+
+.imgAddBeerInBusket {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: -4px;
+    top: -3px;
+}
+
+.btnDeleteProduct {
+    width: 25px;
+    height: 25px;
+    background-color: #282c34;
+    border: none;
+    position: relative;
+    left: 13px;
+    top: -1px;
+}
+
+#imgDeleteProduct {
+    width: 23px;
+    height: 18px;
+    position: relative;
+    left: -8px;
+    top: -3px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .cartInfoInBusket {
+       row-gap: 1.9rem;
+    }
+    .imgBeerCart {
+        width: 13vw;
+        height: 9.5vh;
+        left: 4%;
+        top: -2px;
+    }
+
+    .imgBeerCart img {
+        top: 3px;
+    }
+
+    .priceBeerDivCart {
+        top: -3px;
+    }
+
+    .priceBeerPCart {
+        font-size: 8px;
+    }
+
+    .containerBtnAddSub {
+        gap: 4px;
+    }
+
+    .btnImgSubCount {
+        width: 30px;
+        height: 20px;
+    }
+
+    #imgSubBeer {
+        width: 12px;
+        height: 12px;
+        top: 0;
+    }
+
+    #pCountBeer {
+        top: -20px;
+    }
+
+    .btnImgAddCount {
+        width: 30px;
+        height: 20px;
+    }
+
+    .imgAddBeerInBusket {
+        width: 20px;
+        height: 19px;
+        left: -3.2px;
+        top: -2px;
+    }
+
+    .btnDeleteProduct {
+        left: 1em;
+        top: 0;
+    }
+
+    #imgDeleteProduct {
+        width: 23px;
+        height: 19px;
+        position: relative;
+        left: -8px;
+        top: -3px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 766px) {
+    .divImgBusket {
+        top: 0.5vh;
+        gap: 6px;
+        left: 38vw;
+        letter-spacing: 2px;
+    }
+
+    #imgBusket {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        top: 11px;
+    }
+
+    .divImgBusket p {
+        font-size: 0.8rem;
+    }
+
+    .cartInfoInBusket {
+        top: -10px;
+    }
+
+    .divInfoC {
+        width: 96%;
+        padding: 2px 3px 2px 3px;
+        top: 0;
+    }
+
+    .imgBeerCart {
+        margin-top: 5px;
+        top: -4px;
+        width: 9vw;
+        height: 9vh;
+    }
+
+    .nameBeerh3Cart {
+        top: 0;
+        font-size: 0.8rem;
+    }
+
+    .priceBeerDivCart {
+        top: 1px;
+        width: 6%;
+    }
+
+    .priceBeerPCart {
+        top: -5px;
+        left: -1px;
+        padding: 2px;
+        margin: 2px;
+        align-items: center;
+        font-size: 8px;
+    }
+
+    .containerBtnAddSub {
+        gap: 6px;
+        top: 16px;
+        left: 10vw;
+    }
+
+    .btnDeleteProduct {
+        width: 25px;
+        height: 25px;
+        background-color: #282c34;
+        border: none;
+        position: relative;
+        left: 35px;
+        top: -1px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .divImgBusket {
+        gap: 6px;
+        left: 41vw;
+        top: 0.4vh;
+    }
+    #imgBusket {
+        top: 1rem;
+    }
+    .divImgBusket p {
+        font-size: 1rem;
+    }
+    .cartInfoInBusket {
+        row-gap: 1.9rem;
+    }
+    .imgBeerCart {
+        width: 13vw;
+        height: 10vh;
+        left: 4%;
+        top: -2px;
+    }
+    .divInfoC {
+        left: 6vw;
+    }
+
+    .imgBeerCart {
+        width: 13vw;
+        height: 100%;
+        left: 4%;
+        top: -2px;
+    }
+
+    .imgBeerCart img {
+        top: 4px;
+    }
+
+    .priceBeerDivCart {
+        width: 4%;
+        height: 19px;
+        left: -38%;
+        top: -3px;
+    }
+
+    .priceBeerPCart {
+        font-size: 9px;
+    }
+
+    .nameBeerh3Cart {
+        top: 8px;
+        left: 1%;
+        font-size: 0.9rem;
+    }
+
+    .containerBtnAddSub {
+        gap: 16px;
+        top: 1.5rem;
+    }
+
+    .btnImgSubCount {
+        width: 35px;
+        height: 25px;
+    }
+
+    #imgSubBeer {
+        width: 12px;
+        height: 12px;
+        top: 0;
+    }
+
+    #pCountBeer {
+        top: -18px;
+    }
+
+    .btnImgAddCount {
+        width: 35px;
+        height: 25px;
+    }
+
+    .imgAddBeerInBusket {
+        width: 22px;
+        height: 22px;
+        left: -2.4px;
+        top: -1px;
+    }
+
+    .btnDeleteProduct {
+        left: 4em;
+        top: 0;
+    }
+
+    #imgDeleteProduct {
+        width: 28px;
+        height: 23px;
+        position: relative;
+        left: -8px;
+        top: -3px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1359px) {
+    .divImgBusket {
+        gap: 6px;
+        left: 45.5vw;
+        top: 0.4vh;
+    }
+
+    #imgBusket {
+        width: 1rem;
+        height: 1rem;
+        top: 16px;
+    }
+
+    .divImgBusket p {
+        font-size: 0.9rem;
+    }
+
+    .cartInfoInBusket {
+        top: -8%;
+        gap: 13px;
+    }
+
+    .divInfoC {
+        left: 6vw;
+        top: 3%;
+        height: 9vh;
+    }
+
+    .imgBeerCart {
+        width: 5vw;
+        height: 100%;
+        left: 4%;
+        top: -2px;
+    }
+
+    .imgBeerCart img {
+        top: 6px;
+        width: 85%;
+        height: 80%;
+    }
+
+    .priceBeerDivCart {
+        width: 2%;
+        height: 19px;
+        left: -37%;
+        top: -3px;
+    }
+
+    .priceBeerPCart {
+        font-size: 9px;
+    }
+
+    .nameBeerh3Cart {
+        top: 0;
+        left: -6%;
+        font-size: 1rem;
+    }
+
+    .containerBtnAddSub {
+        gap: 2rem;
+        top: 1.1rem;
+        left: 15%;
+    }
+
+    .btnImgSubCount {
+        width: 35px;
+        height: 25px;
+    }
+
+    #imgSubBeer {
+        width: 12px;
+        height: 12px;
+        top: 0;
+    }
+
+    #pCountBeer {
+        top: -17px;
+    }
+
+    .btnImgAddCount {
+        width: 35px;
+        height: 25px;
+    }
+
+    .imgAddBeerInBusket {
+        width: 22px;
+        height: 22px;
+        left: -2.4px;
+        top: -1px;
+    }
+
+    .btnDeleteProduct {
+        left: 8em;
+        top: 0.2em;
+    }
+
+    #imgDeleteProduct {
+        width: 28px;
+        height: 23px;
+        position: relative;
+        left: -8px;
+        top: -3px;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1559px) {
+    .divImgBusket {
+        gap: 6px;
+        left: 45.5vw;
+        top: 0.4vh;
+    }
+
+    #imgBusket {
+        width: 1.2rem;
+        height: 1.2rem;
+        top: 17px;
+    }
+
+    .divImgBusket p {
+        font-size: 1rem;
+    }
+    .cartInfoInBusket {
+        top: -2%;
+        gap: 1.4rem;
+    }
+
+    .divInfoC {
+        left: 10vw;
+        top: 3%;
+        height: 9vh;
+    }
+
+    .imgBeerCart {
+        width: 5vw;
+        height: 9vh;
+        left: 4%;
+        top: -2px;
+    }
+
+    .imgBeerCart img {
+        top: 6px;
+    }
+
+    .priceBeerDivCart {
+        width: 2%;
+        height: 19px;
+        left: -37%;
+        top: -3px;
+    }
+
+    .priceBeerPCart {
+        font-size: 9px;
+    }
+
+    .nameBeerh3Cart {
+        top: 6px;
+        left: -3%;
+        font-size: 1rem;
+    }
+
+    .containerBtnAddSub {
+        gap: 2rem;
+        top: 1.4rem;
+        left: 10%;
+    }
+
+    .btnImgSubCount {
+        width: 35px;
+        height: 25px;
+    }
+
+    #imgSubBeer {
+        width: 12px;
+        height: 12px;
+        top: 0;
+    }
+
+    #pCountBeer {
+        top: -18px;
+    }
+
+    .btnImgAddCount {
+        width: 35px;
+        height: 25px;
+    }
+
+    .imgAddBeerInBusket {
+        width: 22px;
+        height: 22px;
+        left: -2.4px;
+        top: -1px;
+    }
+
+    .btnDeleteProduct {
+        left: 10em;
+        top: 0;
+    }
+
+    #imgDeleteProduct {
+        width: 28px;
+        height: 23px;
+        position: relative;
+        left: -8px;
+        top: -3px;
+    }
+}
+
+@media only screen and (min-width: 1560px) {
+    .divImgBusket {
+        gap: 6px;
+        left: 45.5vw;
+        top: 0.4vh;
+    }
+
+    #imgBusket {
+        width: 1.2rem;
+        height: 1.2rem;
+        top: 17px;
+    }
+
+    .divImgBusket p {
+        font-size: 1rem;
+
+    }
+
+    .cartInfoInBusket {
+        top: -1%;
+        gap: 1rem;
+    }
+
+    .divInfoC {
+        left: 8vw;
+        top: 2%;
+        height: 9vh;
+    }
+
+    .imgBeerCart {
+        width: 4vw;
+        height: 9vh;
+        left: 4%;
+        top: -2px;
+    }
+
+    .imgBeerCart img {
+        top: 7px;
+        width: 85%;
+        height: 80%;
+    }
+
+    .priceBeerDivCart {
+        width: 2%;
+        height: 19px;
+        left: -37%;
+        top: -2px;
+    }
+
+    .priceBeerPCart {
+        font-size: 11px;
+        top: -9px;
+    }
+
+    .nameBeerh3Cart {
+        top: 6px;
+        left: -6%;
+        font-size: 1rem;
+    }
+
+    .containerBtnAddSub {
+        gap: 2rem;
+        top: 1.4rem;
+        left: 15%;
+    }
+
+    .btnImgSubCount {
+        width: 35px;
+        height: 25px;
+    }
+
+    #imgSubBeer {
+        width: 12px;
+        height: 12px;
+        top: 0;
+    }
+
+    #pCountBeer {
+        top: -17px;
+    }
+
+    .btnImgAddCount {
+        width: 35px;
+        height: 25px;
+    }
+
+    .imgAddBeerInBusket {
+        width: 22px;
+        height: 22px;
+        left: -2.4px;
+        top: -1px;
+    }
+
+    .btnDeleteProduct {
+        left: 10em;
+        top: 0.2em;
+    }
+
+    #imgDeleteProduct {
+        width: 28px;
+        height: 23px;
+        position: relative;
+        left: -8px;
+        top: -3px;
+    }
+}
