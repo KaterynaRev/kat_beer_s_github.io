@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kat_beer_s_github.io/static/css/main.cf59bbee.css",
+    "main.js": "/kat_beer_s_github.io/static/js/main.f61e804b.js",
+    "static/js/453.2c09646a.chunk.js": "/kat_beer_s_github.io/static/js/453.2c09646a.chunk.js",
+    "index.html": "/kat_beer_s_github.io/index.html",
+    "main.cf59bbee.css.map": "/kat_beer_s_github.io/static/css/main.cf59bbee.css.map",
+    "main.f61e804b.js.map": "/kat_beer_s_github.io/static/js/main.f61e804b.js.map",
+    "453.2c09646a.chunk.js.map": "/kat_beer_s_github.io/static/js/453.2c09646a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf59bbee.css",
+    "static/js/main.f61e804b.js"
+  ]
+}
