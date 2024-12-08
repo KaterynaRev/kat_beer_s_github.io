@@ -1,13 +1,10 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "brewdog-js": "^3.0.1",
-    "punkapi-db": "^2.6.0"
-=======
   "name": "beershop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "brewdog-js": "^3.0.1",
+    "punkapi-db": "^2.6.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -39,6 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> 111737e (Initial commit)
   }
 }
